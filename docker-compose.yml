@@ -1,0 +1,77 @@
+# docker-compose.yml for Immich - Battle-Tested Configuration V2
+version: "3.8"
+
+services:
+  immich-server:
+    container_name: immich_server
+    image: ghcr.io/immich-app/immich-server:release
+    command: ["start.sh", "immich"]
+    volumes:
+      - ${DATA_PATH}/uploads:/usr/src/app/upload
+      - /etc/localtime:/etc/localtime:ro
+    env_file: .env
+    depends_on:
+      - redis
+      - database
+    restart: always
+
+  immich-microservices:
+    container_name: immich_microservices
+    image: ghcr.io/immich-app/immich-server:release
+    command: ["start.sh", "microservices"]
+    volumes:
+      - ${DATA_PATH}/uploads:/usr/src/app/upload
+      - /etc/localtime:/etc/localtime:ro
+    env_file: .env
+    depends_on:
+      - redis
+      - database
+    restart: always
+
+  immich-machine-learning:
+    container_name: immich_ml
+    image: ghcr.io/immich-app/immich-machine-learning:release
+    volumes:
+      - ${DATA_PATH}/ml-cache:/cache
+    env_file: .env
+    restart: always
+
+  # Redis (la memoria a breve termine del sistema)
+  redis:
+    container_name: immich_redis
+    image: redis:6.2-alpine@sha256:32337d70335e94f0148e4266eefe52c7a72e737b83f510861616a9a40552b027
+    restart: always
+
+  # Il Database (la memoria a lungo termine)
+  database:
+    container_name: immich_postgres
+    image: postgres:14-alpine@sha256:af07af915579b12dc1b997232a5146c35c4b8b69d95a201cde9a35e6717f930e
+    env_file: .env
+    environment:
+      POSTGRES_USER: immich
+      POSTGRES_DB: immich
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ${DATA_PATH}/postgres:/var/lib/postgresql/data
+    restart: always
+
+  # Il Proxy (il buttafuori che gestisce il traffico)
+  immich-proxy:
+    container_name: immich_proxy
+    image: ghcr.io/immich-app/immich-proxy:release
+    environment:
+      IMMICH_SERVER_URL: http://immich-server:3001
+      IMMICH_WEB_URL: http://immich-web:3000
+    ports:
+      - "2283:8080" # Esponiamo Immich sulla porta 2283
+    depends_on:
+      - immich-server
+      - immich-web
+    restart: always
+
+  # L'interfaccia Web (quello che vedi)
+  immich-web:
+    container_name: immich_web
+    image: ghcr.io/immich-app/immich-web:release
+    env_file: .env
+    restart: always
