@@ -55,21 +55,22 @@ services:
       - ${DATA_PATH}/postgres:/var/lib/postgresql/data
     restart: always
 
-  # Il Proxy (il buttafuori che gestisce il traffico)
+   
   immich-proxy:
     container_name: immich_proxy
     image: ghcr.io/immich-app/immich-proxy:release
     environment:
+        # The server and web are on the same machine
       IMMICH_SERVER_URL: http://immich-server:3001
       IMMICH_WEB_URL: http://immich-web:3000
     ports:
-      - "2283:8080" # Esponiamo Immich sulla porta 2283
+      - "2283:8080" # Expose Immich on port 2283
     depends_on:
       - immich-server
       - immich-web
     restart: always
 
-  # L'interfaccia Web (quello che vedi)
+
   immich-web:
     container_name: immich_web
     image: ghcr.io/immich-app/immich-web:release
