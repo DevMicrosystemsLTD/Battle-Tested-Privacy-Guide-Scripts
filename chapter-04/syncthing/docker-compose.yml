@@ -1,0 +1,22 @@
+# docker-compose.yml for Syncthing - Battle-Tested Configuration
+version: "3.8"
+
+
+services:
+  syncthing:
+    image: lscr.io/linuxserver/syncthing:latest
+    container_name: syncthing
+    hostname: syncthing
+    environment:
+      - PUID=1026  # <-- REPLACE with your User ID (uid)
+      - PGID=100   # <-- REPLACE with your Group ID (gid)
+      - TZ=Europe/Rome # <-- REPLACE with your timezone
+    volumes:
+      - ./config:/config  # Stores Syncthing's configuration
+      - /volume1/data:/data  # Base path for data you want to sync
+    ports:
+      - "8384:8384"    # Web GUI
+      - "22000:22000/tcp" # TCP file transfers
+      - "22000:22000/udp" # UDP QUIC transfers
+      - "21027:21027/udp" # Local discovery
+    restart: unless-stopped
