@@ -1,36 +1,36 @@
-# Battle-Tested Privacy Guide: Official Script Arsenal
+# Build Your Private Cloud: Official Script Arsenal
 
-This repository is the official code and script arsenal for the book, **"Battle-Tested Privacy Guide"** by Antonio Michelotti.
+This is the official code arsenal for the book, **"Build Your Private Cloud"** by Antonio Michelotti.
 
-These are not beginner's toys. These are battle-tested tools designed to help you build your own private cloud, automate your defenses, and achieve true digital sovereignty.
+These aren't just scripts to *build*. They are forged from a **"Build and Break"** philosophy—a 30-year doctrine of understanding systems so deeply that you can bend them to your will. These are tools to achieve true digital sovereignty.
 
 ### Get The Book
 
-These scripts are designed to be used with the book, which provides the necessary context, strategy, and step-by-step guidance.
+These scripts are the weapons. The book is the **field manual** that teaches you the strategy behind them.
 
-**[>> Get your copy of the Battle-Tested Privacy Guide here <<] https://www.amazon.com/dp/B0FR7MQLF5 **
+**[>> Get your copy of "Build Your Private Cloud" on Amazon <<](https://www.amazon.com/dp/B0FR7MQLF5)**
 
 ---
 
 ### How to Use This Arsenal
 
-The repository is organized by chapter. Each folder contains the scripts and configuration files referenced in the corresponding chapter of the book.
+The repository is organized by chapter. Each folder contains the weapons (scripts and configuration files) referenced in the corresponding chapter of the book.
 
-*   `/chapter-04`: Scripts for The Automated Army (PhotoSync Sorter, Immich DB Backup, etc.)
-*   `/chapter-05`: Configuration files for Automation and Monitoring.
+*   `/chapter-04`: Scripts for The Automated Army
+*   `/chapter-05`: Scripts & configurations for The Sentinel Protocol
 *   *(...and so on...)*
 
-To avoid errors, do not copy and paste the code directly from the book's pages. Clone this repository or download the specific raw file you need.
+**Do not copy and paste code from the book's pages.** That is a rookie mistake. Clone this repository or download the specific raw file you need.
 
-### Disclaimer: The "War Games" Rule
+### The "Build & Break" Rule (Disclaimer)
 
-This is a real-world arsenal, not a playground. The scripts provided here are powerful tools that can modify your system and your data.
+This is a real-world arsenal, not a playground. Our motto is **"Build and Break!"** This means you are in control, and you are responsible.
 
-1.  **You are your own support.** These scripts are provided "as-is", without warranty of any kind. I am not responsible for any data loss, system failure, or any other damage that may result from their use.
-2.  **Understand before you execute.** Never run a script on your system that you do not fully understand. The book provides the context; it is your responsibility to learn it.
-3.  **Test everything.** Always test these scripts in a non-critical environment before deploying them on your live data.
+1.  **You Are Your Own Support.** These scripts are provided "as-is", without warranty. I am not responsible for any data loss or system failure.
+2.  **Understand Before You Execute.** Never run a script you do not fully understand. The book provides the context; it is your responsibility to learn it.
+3.  **Test Everything.** Test in a non-critical environment before deploying on your live data.
 
-By using the code in this repository, you agree that you are the sole person responsible for the outcome. This is the core principle of Digital Sovereignty.
+By using this code, you agree that you are the sole person responsible for the outcome. This is the core principle of Digital Sovereignty.
 
 ---
 
