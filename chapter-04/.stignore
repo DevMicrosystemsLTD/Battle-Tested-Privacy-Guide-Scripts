@@ -1,0 +1,10 @@
+# Ignore macOS specific files
+.DS_Store
+# Ignore Windows thumbnail cache
+Thumbs.db
+# Ignore temporary files
+*.tmp
+~*
+# Ignore build artifacts
+/build
+/node_modules
