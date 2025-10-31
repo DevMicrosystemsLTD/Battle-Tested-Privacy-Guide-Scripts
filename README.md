@@ -16,7 +16,7 @@ Questi non sono semplici script da *costruire*. Sono stati forgiati da una filos
 Questi script sono le armi. Il libro è il **manuale operativo** che ti insegna la strategia che c'è dietro.
 
 **[>> Acquista la tua copia di "Fortezza Digitale" su Amazon <<](https://dev-net.it/itamazon-book)** 
-*(Nota: Sostituisci con il tuo link Amazon italiano quando sarà pronto)*
+ 
 
 ---
 
