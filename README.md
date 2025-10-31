@@ -1,4 +1,55 @@
-# Build Your Private Cloud: Official Script Arsenal
+# Fortezza Digitale / Build Your Private Cloud: L'Arsenale Ufficiale
+
+[Italiano](#italiano) | [English](#english)
+
+---
+<a name="italiano"></a>
+
+## 🇮🇹 Versione Italiana
+
+Questo è l'arsenale di codice ufficiale per il libro **"Fortezza Digitale"** di Antonio Michelotti.
+
+Questi non sono semplici script da *costruire*. Sono stati forgiati da una filosofia **"Costruisci e Distruggi"** — una dottrina trentennale basata sulla comprensione dei sistemi a un livello così profondo da poterli piegare al proprio volere. Questi sono strumenti per raggiungere la vera sovranità digitale.
+
+### Ottieni il Libro
+
+Questi script sono le armi. Il libro è il **manuale operativo** che ti insegna la strategia che c'è dietro.
+
+**[>> Acquista la tua copia di "Fortezza Digitale" su Amazon <<](https://dev-net.it/itamazon-book)** 
+*(Nota: Sostituisci con il tuo link Amazon italiano quando sarà pronto)*
+
+---
+
+### Come Usare Questo Arsenale
+
+Il repository è organizzato per capitoli. Ogni cartella contiene le armi (script e file di configurazione) a cui si fa riferimento nel capitolo corrispondente del libro.
+
+*   `/chapter-04`: Script per L'Esercito Automatizzato
+*   `/chapter-05`: Script e configurazioni per Il Protocollo Sentinella
+*   *(...e così via...)*
+
+**NON copiare e incollare il codice dalle pagine del libro.** È un errore da principianti. Clona questo repository o scarica il file raw specifico di cui hai bisogno.
+
+### La Regola "Costruisci e Distruggi" (Disclaimer)
+
+Questo è un arsenale per il mondo reale, non un parco giochi. Il nostro motto è **"Costruisci e Distruggi!"**. Ciò significa che tu hai il controllo e tu sei il responsabile.
+
+1.  **Sei il Tuo Unico Supporto.** Questi script sono forniti "così come sono", senza garanzia. Non sono responsabile per alcuna perdita di dati o guasto del sistema.
+2.  **Comprendi Prima di Eseguire.** Non lanciare mai uno script che non hai compreso appieno. Il libro fornisce il contesto; è tua responsabilità impararlo.
+3.  **Testa Ogni Cosa.** Fai dei test in un ambiente non critico prima di applicare le modifiche ai tuoi dati reali.
+
+Utilizzando questo codice, accetti di essere l'unica persona responsabile del risultato. Questo è il principio fondamentale della Sovranità Digitale.
+
+---
+
+### Licenza
+
+Questo progetto è rilasciato sotto Licenza MIT. Vedi il file `LICENSE` (in Inglese) per i dettagli.
+
+---
+<a name="english"></a>
+
+## 🇬🇧 English Version
 
 This is the official code arsenal for the book, **"Build Your Private Cloud"** by Antonio Michelotti.
 
@@ -8,7 +59,7 @@ These aren't just scripts to *build*. They are forged from a **"Build and Break"
 
 These scripts are the weapons. The book is the **field manual** that teaches you the strategy behind them.
 
-**[>> Get your copy of "Build Your Private Cloud" on Amazon <<](https://www.amazon.com/dp/B0FR7MQLF5)**
+**[>> Get your copy of "Build Your Private Cloud" on Amazon <<](https://dev-net.it/amazon-book)**
 
 ---
 
