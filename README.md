@@ -11,12 +11,21 @@ Questo è l'arsenale di codice ufficiale per il libro **"Fortezza Digitale"** di
 
 Questi non sono semplici script da *costruire*. Sono stati forgiati da una filosofia **"Costruisci e Distruggi"** — una dottrina trentennale basata sulla comprensione dei sistemi a un livello così profondo da poterli piegare al proprio volere. Questi sono strumenti per raggiungere la vera sovranità digitale.
 
+### ⚠️ AVVISO: Questo codice è per chi studia
+Questi script sono i **template educativi** del libro. Sono potenti, ma grezzi.
+Se cerchi la versione **blindata, "set-and-forget"** che uso per i miei clienti privati, o se hai rotto qualcosa e ti serve un fix rapido:
+
+👉 **Supporto Prioritario & Script Pro:** [https://dev-net.it/support](https://dev-net.it/support)
+*(Pacchetti da 149€ per fix rapidi o 299€ per lo stack completo)*
+
+---
+
 ### Ottieni il Libro
 
 Questi script sono le armi. Il libro è il **manuale operativo** che ti insegna la strategia che c'è dietro.
 
-**[>> Acquista la tua copia di "Fortezza Digitale" su Amazon <<](https://dev-net.it/itamazon-book)** 
- 
+**[>> "Fortezza Digitale" (Edizione Italiana) - IN ARRIVO <<](https://dev-net.it)**
+*(Iscriviti alla newsletter sul sito per sapere quando esce)*
 
 ---
 
@@ -24,9 +33,9 @@ Questi script sono le armi. Il libro è il **manuale operativo** che ti insegna 
 
 Il repository è organizzato per capitoli. Ogni cartella contiene le armi (script e file di configurazione) a cui si fa riferimento nel capitolo corrispondente del libro.
 
-*   `/chapter-04`: Script per L'Esercito Automatizzato
-*   `/chapter-05`: Script e configurazioni per Il Protocollo Sentinella
-*   *(...e così via...)*
+* `/chapter-04`: Script per L'Esercito Automatizzato
+* `/chapter-05`: Script e configurazioni per Il Protocollo Sentinella
+* *(...e così via...)*
 
 **NON copiare e incollare il codice dalle pagine del libro.** È un errore da principianti. Clona questo repository o scarica il file raw specifico di cui hai bisogno.
 
@@ -55,6 +64,15 @@ This is the official code arsenal for the book, **"Build Your Private Cloud"** b
 
 These aren't just scripts to *build*. They are forged from a **"Build and Break"** philosophy—a 30-year doctrine of understanding systems so deeply that you can bend them to your will. These are tools to achieve true digital sovereignty.
 
+### ⚠️ WARNING: This code is for learners
+These scripts are the **raw educational templates** from the book.
+If you want the **hardened, production-ready stack** I use for private clients, or if you broke something and need a wizard to fix it:
+
+👉 **Priority Support & Pro Scripts:** [https://dev-net.it/support](https://dev-net.it/support)
+*(Packages starting at $149 for quick fixes)*
+
+---
+
 ### Get The Book
 
 These scripts are the weapons. The book is the **field manual** that teaches you the strategy behind them.
@@ -67,9 +85,9 @@ These scripts are the weapons. The book is the **field manual** that teaches you
 
 The repository is organized by chapter. Each folder contains the weapons (scripts and configuration files) referenced in the corresponding chapter of the book.
 
-*   `/chapter-04`: Scripts for The Automated Army
-*   `/chapter-05`: Scripts & configurations for The Sentinel Protocol
-*   *(...and so on...)*
+* `/chapter-04`: Scripts for The Automated Army
+* `/chapter-05`: Scripts & configurations for The Sentinel Protocol
+* *(...and so on...)*
 
 **Do not copy and paste code from the book's pages.** That is a rookie mistake. Clone this repository or download the specific raw file you need.
 
